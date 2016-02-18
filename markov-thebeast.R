@@ -90,6 +90,6 @@ while(1){
       out.sentence <- sentences[1]
    }
    print(out.sentence)
-   # tweet(out.sentence)   
-   Sys.sleep(10)
+   tweet(out.sentence)   
+   Sys.sleep(1800)
 }
